@@ -1,0 +1,31 @@
+{% extends 'navigationbar.html' %}
+ {% load static %}
+{% block body %}
+
+
+<style>
+
+</style>
+
+
+
+
+
+<div class="container" style = "margin-top : 100px">
+      <h2 class="text-center text-danger font-weight-bold">About Us</h2>
+	  <br><br><br><br>
+      <div class="row">
+          <div class="col-sm-4 text-center">
+              <img src="{% static 'images/about.jpg' %}" width=300 height = 200 class="img-responsive">
+          </div>
+          <div class="col-sm-8" style = "font-weight : bold ; margin-top : 30px">
+              Hello Friends!<br>
+This is simple Gym Management System Project developed
+              by Swami S S & Sathe V B using Python Django , Sqlite , HTML , CSS and Bootstrap.
+              <br>
+ To use all the features you need to login first .
+
+          </div>
+      </div>
+  </div>
+{% endblock %}
